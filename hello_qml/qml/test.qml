@@ -9,3 +9,4 @@ Rectangle {
         anchors.centerIn: parents;
     }
 }
+
