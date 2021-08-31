@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
-import qt.ColorMaker 1.0
+//import qt.ColorMaker 1.0
 import QtQuick.Controls 2.12
 
 
@@ -22,10 +22,10 @@ Window {
             font.pixelSize: 26;
         }
 
-        ColorMaker {
+        /*ColorMaker {
             id: colorMaker;
             color: Qt.green;
-        }
+        }*/
 
         Rectangle {
             id: colorRect;
@@ -43,7 +43,7 @@ Window {
             anchors.bottom: parent.bottom;
             anchors.bottomMargin: 4;
             onClicked: {
-                colorMaker.start();
+                colorMaker2.start();
             }
         }
 
@@ -54,7 +54,7 @@ Window {
             anchors.leftMargin: 4;
             anchors.bottom: start.bottom;
             onClicked: {
-                colorMaker.stop();
+                colorMaker2.stop();
             }
         }
 
@@ -62,7 +62,7 @@ Window {
 
         Text {
             id: test
-            text: colorMaker.getInt()
+            text: colorMaker2.getInt()
         }
     }
 }
