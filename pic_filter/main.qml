@@ -12,9 +12,14 @@ Window {
     title: qsTr("Hello World")
 
     Rectangle {
+        id: rect;
         width: 640;
         height: 480;
         color: "#121212";
+
+        onWidthChanged: {
+            console.log("fuck! width changed!", width)
+        }
 
         BusyIndicator {
             id: busy;
@@ -53,6 +58,13 @@ Window {
             id: processor;
             onFinished: {
                 imageViewer.source = "/home/ddk/Downloads/17-45-41-D7yOqPjUcAAEmrA.jpg"
+            }
+        }
+
+        Button {
+            anchors.centerIn: parent;
+            onClicked: {
+                rect.width = rect.width*2;
             }
         }
 
