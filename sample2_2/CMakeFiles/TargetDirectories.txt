@@ -1,0 +1,4 @@
+/home/ddk/Documents/qt_learn/sample2_2/CMakeFiles/rebuild_cache.dir
+/home/ddk/Documents/qt_learn/sample2_2/CMakeFiles/edit_cache.dir
+/home/ddk/Documents/qt_learn/sample2_2/CMakeFiles/sample2_2.dir
+/home/ddk/Documents/qt_learn/sample2_2/CMakeFiles/sample2_2_autogen.dir

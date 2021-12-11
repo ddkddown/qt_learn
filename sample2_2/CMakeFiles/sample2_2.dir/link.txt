@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/sample2_2.dir/main.cpp.o CMakeFiles/sample2_2.dir/qwdialog.cpp.o CMakeFiles/sample2_2.dir/sample2_2_autogen/mocs_compilation.cpp.o  -o sample2_2 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.7.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.7.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.7.1 
